@@ -42,7 +42,7 @@ public class BarraDeHerramientas extends javax.swing.JFrame {
 
         jToolBar1.setRollover(true);
 
-        btnUno.setText("Uno");
+        btnUno.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn 1.png"))); // NOI18N
         btnUno.setFocusable(false);
         btnUno.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnUno.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -53,7 +53,7 @@ public class BarraDeHerramientas extends javax.swing.JFrame {
         });
         jToolBar1.add(btnUno);
 
-        btnDos.setText("Dos");
+        btnDos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/dos-flechas-en-boton-cuadrado-negro.png"))); // NOI18N
         btnDos.setFocusable(false);
         btnDos.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnDos.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
